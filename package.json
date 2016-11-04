@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-zcash",
+  "name": "insight-api-dwcash",
   "description": "A Zcash blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/str4d/insight-api-zcash.git",
+  "repository": "git://github.com/deepwebcash/insight-api-dwcash.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,19 +38,19 @@
     },
     {
       "name": "Jack Grigg",
-      "email": "jack@z.cash"
+      "email": "jack@dw.cash"
     }
   ],
   "bugs": {
-    "url": "https://github.com/str4d/insight-api-zcash/issues"
+    "url": "https://github.com/deepwebcash/insight-api-dwcash/issues"
   },
-  "homepage": "https://github.com/str4d/insight-api-zcash",
+  "homepage": "https://github.com/deepwebcash/insight-api-dwcash",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "zcash api",
+    "dwcash api",
     "blockchain api",
     "json",
     "bitcore"
@@ -65,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-zcash": "str4d/bitcore-lib-zcash",
-    "bitcore-message-zcash": "str4d/bitcore-message-zcash",
+    "bitcore-lib-dwcash": "deepwebcash/bitcore-lib-dwcash",
+    "bitcore-message-dwcash": "deepwebcash/bitcore-message-dwcash",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",

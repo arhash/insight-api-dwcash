@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-dwcash",
+  "name": "insight-api-zclassic",
   "description": "A Zcash blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/deepwebcash/insight-api-dwcash.git",
+  "repository": "git://github.com/deepwebcash/insight-api-zclassic.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -42,15 +42,15 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/deepwebcash/insight-api-dwcash/issues"
+    "url": "https://github.com/deepwebcash/insight-api-zclassic/issues"
   },
-  "homepage": "https://github.com/deepwebcash/insight-api-dwcash",
+  "homepage": "https://github.com/deepwebcash/insight-api-zclassic",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "dwcash api",
+    "zclassic api",
     "blockchain api",
     "json",
     "bitcore"
@@ -65,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-dwcash": "deepwebcash/bitcore-lib-dwcash",
-    "bitcore-message-dwcash": "deepwebcash/bitcore-message-dwcash",
+    "bitcore-lib-zclassic": "deepwebcash/bitcore-lib-zclassic",
+    "bitcore-message-zclassic": "deepwebcash/bitcore-message-zclassic",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",

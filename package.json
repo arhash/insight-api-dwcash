@@ -2,7 +2,7 @@
   "name": "insight-api-zclassic",
   "description": "A Zcash blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/deepwebcash/insight-api-zclassic.git",
+  "repository": "git://github.com/arhash/insight-api-zclassic.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -42,9 +42,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/deepwebcash/insight-api-zclassic/issues"
+    "url": "https://github.com/arhash/insight-api-zclassic/issues"
   },
-  "homepage": "https://github.com/deepwebcash/insight-api-zclassic",
+  "homepage": "https://github.com/arhash/insight-api-zclassic",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -65,8 +65,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-zclassic": "deepwebcash/bitcore-lib-zclassic",
-    "bitcore-message-zclassic": "deepwebcash/bitcore-message-zclassic",
+    "bitcore-lib-zclassic": "arhash/bitcore-lib-zclassic",
+    "bitcore-message-zclassic": "arhash/bitcore-message-zclassic",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
